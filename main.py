@@ -9,7 +9,7 @@ def main():
     producto = Producto(
         1,
         "Mouse",
-        -50,
+        250,
         5
     )
 
