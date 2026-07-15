@@ -13,7 +13,7 @@ class TestInventario(unittest.TestCase):
         self.assertEqual(prod.nombre, "Mouse")
         self.assertEqual(prod.precio, 150.0)
         self.assertEqual(prod.stock, 10)
-
+# Verificamos que se levante correctamente la excepcion de negocio
     def test_precio_negativo_lanza_value_error(self):
         """2. CASO DE ERROR (ValueError): Validar que precio negativo truene"""
         with self.assertRaises(ValueError) as context:
