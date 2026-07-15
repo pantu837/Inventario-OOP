@@ -1,3 +1,5 @@
+# Pruebas unitarias para validar el módulo de productos y el servicio de inventario.
+# Rol: QA / Pruebas
 import unittest
 # Importamos la clase Producto y el Servicio de inventario
 from src.modelo import Producto
